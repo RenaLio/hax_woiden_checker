@@ -63,7 +63,7 @@ class Hax:
         hax_stat = f"[🛰Hax Stats / Hax 开通数据]\n{hax_str}\n"
         vir_str = self.get_data_center("https://hax.co.id/create-vps", True)
         woiden_str =self.get_data_center("https://woiden.id/create-vps",True)
-        data_center = f'[🚩Available Centers / 可开通区域]\nhax.co.id\n{vir_str}woiden.id\n{woiden_str}\n'
+        data_center = f'[🚩Available Centers / 可开通区域]\n`hax.co.id`\n{vir_str}`woiden.id`\n{woiden_str}\n'
         msg = hax_stat + data_center
         return msg
 
